@@ -2,6 +2,7 @@
   "name": "earthquake-feed",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://remylenoir.github.io/earthquakes-feed/",
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -22,6 +23,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.179"
+    "@types/lodash": "^4.14.179",
+    "gh-pages": "^3.2.3"
   }
 }
