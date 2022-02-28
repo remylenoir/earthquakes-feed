@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/earthquakes-feed/static/js/main.2670ffc1.js",
+    "static/js/787.7d7ee59e.chunk.js": "/earthquakes-feed/static/js/787.7d7ee59e.chunk.js",
+    "index.html": "/earthquakes-feed/index.html",
+    "main.2670ffc1.js.map": "/earthquakes-feed/static/js/main.2670ffc1.js.map",
+    "787.7d7ee59e.chunk.js.map": "/earthquakes-feed/static/js/787.7d7ee59e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2670ffc1.js"
+  ]
+}
