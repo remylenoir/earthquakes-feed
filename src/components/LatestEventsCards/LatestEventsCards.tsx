@@ -69,7 +69,7 @@ export const LatestEventsCards: FC<LatestEventsCardsProps> = ({
                 <EarthquakeCard
                   key={earthquake.id}
                   id={earthquake.id}
-                  magnitude={earthquake.properties.mag || -1}
+                  magnitude={earthquake.properties.mag}
                   place={earthquake.properties.place}
                   time={earthquake.properties.time}
                   url={earthquake.properties.url}
