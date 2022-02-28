@@ -1,0 +1,1 @@
+export { LatestEventsCards } from "./LatestEventsCards";

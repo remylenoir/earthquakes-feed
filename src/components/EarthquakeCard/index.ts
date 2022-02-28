@@ -1,0 +1,1 @@
+export { EarthquakeCard } from "./EarthquakeCard";
